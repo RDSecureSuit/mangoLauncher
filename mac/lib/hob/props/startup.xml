@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <ctype>1</ctype>
+    <sm_views_mode>1</sm_views_mode>
+    <conf_wsp>2</conf_wsp>
+    <autologon>N</autologon>
+    <timestamp>20240205112901</timestamp>
+    <http_proxy_state>1</http_proxy_state>
+    <filetype>1</filetype>
+    <imc_version>1</imc_version>
+    <user_keystore>1</user_keystore>
+    <savepw>Y</savepw>
+    <showpwchange>N</showpwchange>
+    <sysuser>N</sysuser>
+    <SrvListWSP>
+        <_-_23>1</_-_23>
+        <__0>
+            <host>demo1.rdsca.net</host>
+            <port>446</port>
+        </__0>
+    </SrvListWSP>
+</root>
