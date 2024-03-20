@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webres version="2">
+	<resources>
+		<res os="linux" subos="any" arch="x64">
+			<deps></deps>
+			<key>hob.media.ffmpeg.portable</key>
+			<resource.zip>hob_media_ffmpeg_portable-linux-any-x64.jar</resource.zip>
+			<resource.hash algo="sha2">1d2f6d73dc386dd13be46f89aaa7d64978fe1e07a825165dc3d3ee4d9c10e516</resource.hash>
+			<resource.size>4375814</resource.size>
+			<dependencies></dependencies>
+		</res>
+		<res os="linux" subos="any" arch="x86">
+			<deps></deps>
+			<key>hob.media.ffmpeg.portable</key>
+			<resource.zip>hob_media_ffmpeg_portable-linux-any-x86.jar</resource.zip>
+			<resource.hash algo="sha2">77045d0563f9e0af9d065295f6e7ab9c8214eda3bcdc51dd199750a7484606e5</resource.hash>
+			<resource.size>4397158</resource.size>
+			<dependencies></dependencies>
+		</res>
+		<res os="mac" subos="any" arch="x64">
+			<deps></deps>
+			<key>hob.media.ffmpeg.portable</key>
+			<resource.zip>hob_media_ffmpeg_portable-mac-any-x64.jar</resource.zip>
+			<resource.hash algo="sha2">2e98fab294cdb8dc1b4161f1e05d541a695eb174a2af91fd250605087c7f07c1</resource.hash>
+			<resource.size>5176457</resource.size>
+		</res>
+		<res os="win" subos="any" arch="x64">
+			<deps></deps>
+			<key>hob.sec.hlsecbundle</key>
+			<resource.zip>hob_sec_hlsecbundle-win-any-x64.jar</resource.zip>
+			<resource.hash algo="sha2">35aaed94d9447898f36295a2f6a87909c1718f5433b475de77a8ee3a8ab3a5bf</resource.hash>
+			<resource.size>380510</resource.size>
+			<dependencies></dependencies>
+		</res>
+		<res os="win" subos="any" arch="x86">
+			<deps></deps>
+			<key>hob.sec.hlsecbundle</key>
+			<resource.zip>hob_sec_hlsecbundle-win-any-x86.jar</resource.zip>
+			<resource.hash algo="sha2">6c5f8bca32210d49745f407ffe416d9006e825e168ba00d0a9b9b4d3d099a994</resource.hash>
+			<resource.size>324297</resource.size>
+			<dependencies></dependencies>
+		</res>
+	</resources>
+	<libraries>
+		<lib os="freebsd" subos="any" arch="x64">
+			<deps>c7</deps>
+			<key>hob.comm.jnisyslin</key>
+			<jnilib>libUSLinJni.so</jnilib>
+			<resource.zip>hob_comm_jnisyslin-freebsd-any-x64-c7.jar</resource.zip>
+			<resource.hash algo="sha2">e35128f99b3d53b9e347a8a85d9c3a5b58197d11c37bd4da368c74bd9575ec12</resource.hash>
+			<resource.size>15344</resource.size>
+			<dependencies>libc.so.7</dependencies>
+		</lib>
+		<lib os="freebsd" subos="any" arch="x64">
+			<deps>v6</deps>
+			<key>hob.rdp.ui.sys.rdpui</key>
+			<jnilib>libx11rdpui_v6.so</jnilib>
+			<resource.zip>hob_rdp_ui_sys_rdpui-freebsd-any-x64-v6.jar</resource.zip>
+			<resource.hash algo="sha2">1d25acc8bebcccf8afa9134271d83c5f9a2ed23c1921220f5cb90aaf45f7558a</resource.hash>
+			<resource.size>129984</resource.size>
+			<dependencies>libX11.so.6,libXrender.so.1,libXcursor.so.1,libXv.so.1,libXext.so.6,libstdc++.so.6,libm.so.5,libc.so.7</dependencies>
+		</lib>
+		<lib os="freebsd" subos="any" arch="x64">
+			<deps>v6</deps>
+			<key>hob.media.jnigstreamer</key>
+			<jnilib>libhobjnigst_v6.so</jnilib>
+			<resource.zip>hob_media_jnigstreamer-freebsd-any-x64-v6.jar</resource.zip>
+			<resource.hash algo="sha2">79164daac7c61336396697a27677ea9de1daedf9f0a8a69da9dbd5ca8fce3e2b</resource.hash>
+			<resource.size>61907</resource.size>
+			<dependencies>libgstreamer-1.0.so.0,libgstbase-1.0.so.0,libglib-2.0.so.0,libgobject-2.0.so.0,libgstriff-1.0.so.0,libgstvideo-1.0.so.0,libstdc++.so.6,libm.so.5,libc.so.7</dependencies>
+		</lib>
+		<lib os="freebsd" subos="any" arch="x64">
+			<deps>v6</deps>
+			<key>hob.cuc.jnisyswsm</key>
+			<jnilib>libhobjniwsm_v6.so</jnilib>
+			<resource.zip>hob_cuc_jnisyswsm-freebsd-any-x64-v6.jar</resource.zip>
+			<resource.hash algo="sha2">6872db767e14b1a24ccc8140c93fca78d1e4b08f276437ebd37c2e7b3ecc76cc</resource.hash>
+			<resource.size>797459</resource.size>
+			<dependencies>librt.so.1,libthr.so.3,libstdc++.so.6,libm.so.5,libc.so.7</dependencies>
+		</lib>
+		<lib os="freebsd" subos="any" arch="x64">
+			<deps>v6</deps>
+			<key>hob.hltc.jnidr</key>
+			<jnilib>libhobjnidr_v6.so</jnilib>
+			<resource.zip>hob_hltc_jnidr-freebsd-any-x64-v6.jar</resource.zip>
+			<resource.hash algo="sha2">6d4656aa8561f921f387da89e66aca75bd8ad45f69c2847f667fc95f3a75132b</resource.hash>
+			<resource.size>33798</resource.size>
+			<dependencies>libstdc++.so.6,libm.so.5,libc.so.7</dependencies>
+		</lib>
+		<lib os="freebsd" subos="any" arch="x86">
+			<deps>c7</deps>
+			<key>hob.comm.jnisyslin</key>
+			<jnilib>libUSLinJni.so</jnilib>
+			<resource.zip>hob_comm_jnisyslin-freebsd-any-x86-c7.jar</resource.zip>
+			<resource.hash algo="sha2">2d9926f256da89dd110fdd4a13a8438f5420b95d41eb3d9aa528fbac8a4948e0</resource.hash>
+			<resource.size>15295</resource.size>
+			<dependencies>libc.so.7</dependencies>
+		</lib>
+		<lib os="freebsd" subos="any" arch="x86">
+			<deps>v6</deps>
+			<key>hob.rdp.ui.sys.rdpui</key>
+			<jnilib>libx11rdpui_v6.so</jnilib>
+			<resource.zip>hob_rdp_ui_sys_rdpui-freebsd-any-x86-v6.jar</resource.zip>
+			<resource.hash algo="sha2">d76ba3137cdca948218a8036bd033225790737490d9448ab43998b660573a163</resource.hash>
+			<resource.size>126933</resource.size>
+			<dependencies>libX11.so.6,libXrender.so.1,libXcursor.so.1,libXv.so.1,libXext.so.6,libstdc++.so.6,libm.so.5,libc.so.7</dependencies>
+		</lib>
+		<lib os="freebsd" subos="any" arch="x86">
+			<deps>v6</deps>
+			<key>hob.hltc.jnitw</key>
+			<jnilib>libUSSEWIC1_v6.so</jnilib>
+			<resource.zip>hob_hltc_jnitw-freebsd-any-x86-v6.jar</resource.zip>
+			<resource.hash algo="sha2">3549ef00549b3425ea49f1071072398cdd91a8e31a222cde03d1ff91a1bd8281</resource.hash>
+			<resource.size>34868</resource.size>
+			<dependencies>libX11.so.6,libjava.so,libstdc++.so.6,libm.so.5,libgcc_s.so.1,libc.so.7</dependencies>
+		</lib>
+		<lib os="freebsd" subos="any" arch="x86">
+			<deps>v6</deps>
+			<key>hob.media.jnigstreamer</key>
+			<jnilib>libhobjnigst_v6.so</jnilib>
+			<resource.zip>hob_media_jnigstreamer-freebsd-any-x86-v6.jar</resource.zip>
+			<resource.hash algo="sha2">d7dcf64a8b3fc84110bd11868ed25e353de4c013c0a69ab31307dc82f18c597e</resource.hash>
+			<resource.size>60778</resource.size>
+			<dependencies>libgstreamer-1.0.so.0,libgstbase-1.0.so.0,libglib-2.0.so.0,libgobject-2.0.so.0,libgstriff-1.0.so.0,libgstvideo-1.0.so.0,libstdc++.so.6,libm.so.5,libc.so.7</dependencies>
+		</lib>
+		<lib os="freebsd" subos="any" arch="x86">
+			<deps>v6</deps>
+			<key>hob.cuc.jnisyswsm</key>
+			<jnilib>libhobjniwsm_v6.so</jnilib>
+			<resource.zip>hob_cuc_jnisyswsm-freebsd-any-x86-v6.jar</resource.zip>
+			<resource.hash algo="sha2">608d79338373eff0e3af5e167f71183795f1c4817d9b430139d6ce916c0280fd</resource.hash>
+			<resource.size>820785</resource.size>
+			<dependencies>librt.so.1,libthr.so.3,libstdc++.so.6,libm.so.5,libc.so.7</dependencies>
+		</lib>
+		<lib os="freebsd" subos="any" arch="x86">
+			<deps>v6</deps>
+			<key>hob.hltc.jnidr</key>
+			<jnilib>libhobjnidr_v6.so</jnilib>
+			<resource.zip>hob_hltc_jnidr-freebsd-any-x86-v6.jar</resource.zip>
+			<resource.hash algo="sha2">7da8c468bfaa38040d4894a50ae225ee6ec4318ef3831169b786bdd168b551c8</resource.hash>
+			<resource.size>34045</resource.size>
+			<dependencies>libstdc++.so.6,libm.so.5,libc.so.7</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x64">
+			<deps>c6</deps>
+			<key>hob.comm.jnisyslin</key>
+			<jnilib>libUSLinJni.so</jnilib>
+			<resource.zip>hob_comm_jnisyslin-linux-any-x64-c6.jar</resource.zip>
+			<resource.hash algo="sha2">c0a132607630dfc1e9680b5234d47da2948fce4439a8af75be49b6513bdf6cbc</resource.hash>
+			<resource.size>16213</resource.size>
+			<dependencies>libdl.so.2,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x64">
+			<deps>v5</deps>
+			<key>hob.rdp.ui.sys.rdpui</key>
+			<jnilib>libx11rdpui_v5.so</jnilib>
+			<resource.zip>hob_rdp_ui_sys_rdpui-linux-any-x64-v5.jar</resource.zip>
+			<resource.hash algo="sha2">f09665f6c7221d5d419e8006597bd30c381cba68edef40df5ff16cbc73f6ac24</resource.hash>
+			<resource.size>127823</resource.size>
+			<dependencies>libdl.so.2,libX11.so.6,libXrender.so.1,libXcursor.so.1,libXv.so.1,libXext.so.6,libstdc++.so.5,libm.so.6,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x64">
+			<deps>v5</deps>
+			<key>hob.hltc.jnidr</key>
+			<jnilib>libhobjnidr_v5.so</jnilib>
+			<resource.zip>hob_hltc_jnidr-linux-any-x64-v5.jar</resource.zip>
+			<resource.hash algo="sha2">f07e17b0cc526f935f728c69298831332dd53cfc9ffce90c3251320f3c2817ed</resource.hash>
+			<resource.size>50559</resource.size>
+			<dependencies>libdl.so.2,libstdc++.so.5,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x64">
+			<deps>v5</deps>
+			<key>hob.media.jnigstreamer</key>
+			<jnilib>libhobjnigst_v5.so</jnilib>
+			<resource.zip>hob_media_jnigstreamer-linux-any-x64-v5.jar</resource.zip>
+			<resource.hash algo="sha2">b6dd0e5841c1cf00863c28cf1dc0d0230a7b016b7ec3c56976e4fd4329af3302</resource.hash>
+			<resource.size>60747</resource.size>
+			<dependencies>libgstreamer-1.0.so.0,libglib-2.0.so.0,libgobject-2.0.so.0,libgstriff-1.0.so.0,libgstvideo-1.0.so.0,libstdc++.so.5,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x64">
+			<deps>v6</deps>
+			<key>hob.hltc.jnitw</key>
+			<jnilib>libUSSEWIC1_v6.so</jnilib>
+			<resource.zip>hob_hltc_jnitw-linux-any-x64-v6.jar</resource.zip>
+			<resource.hash algo="sha2">13861b69b53bd3c4a9a24c10f160fa9123649846fa490efad0d6e1a95f21b5c4</resource.hash>
+			<resource.size>29782</resource.size>
+			<dependencies>libX11.so.6,libstdc++.so.6,libm.so.6,libgcc_s.so.1,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x64">
+			<deps>v6</deps>
+			<key>hob.rdp.ui.sys.rdpui</key>
+			<jnilib>libx11rdpui_v6.so</jnilib>
+			<resource.zip>hob_rdp_ui_sys_rdpui-linux-any-x64-v6.jar</resource.zip>
+			<resource.hash algo="sha2">84541df13dd4050021eeab5008116d924737d7f5467f94eb87f53839be3a19a3</resource.hash>
+			<resource.size>126879</resource.size>
+			<dependencies>libdl.so.2,libX11.so.6,libXrender.so.1,libXcursor.so.1,libXv.so.1,libXext.so.6,libstdc++.so.6,libm.so.6,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x64">
+			<deps>v6</deps>
+			<key>hob.cuc.jnisyswsm</key>
+			<jnilib>libhobjniwsm_v6.so</jnilib>
+			<resource.zip>hob_cuc_jnisyswsm-linux-any-x64-v6.jar</resource.zip>
+			<resource.hash algo="sha2">f8bffa43367858d64d201a9edbfa121194c784e63f53b858b4d57531d1a37320</resource.hash>
+			<resource.size>696377</resource.size>
+			<dependencies>libdl.so.2,librt.so.1,libstdc++.so.6,libm.so.6,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x64">
+			<deps>v6</deps>
+			<key>hob.hltc.jnidr</key>
+			<jnilib>libhobjnidr_v6.so</jnilib>
+			<resource.zip>hob_hltc_jnidr-linux-any-x64-v6.jar</resource.zip>
+			<resource.hash algo="sha2">3efeeeeaa22f9b8990e1c71f4636b972893ce6c24b0f7b543b13050b12090d80</resource.hash>
+			<resource.size>49508</resource.size>
+			<dependencies>libdl.so.2,libstdc++.so.6,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x64">
+			<deps>v6</deps>
+			<key>hob.media.jnigstreamer</key>
+			<jnilib>libhobjnigst_v6.so</jnilib>
+			<resource.zip>hob_media_jnigstreamer-linux-any-x64-v6.jar</resource.zip>
+			<resource.hash algo="sha2">102ab1dc5987914e206e8a49a6168baa3ffa4d88040c82ba728e3d91f3e6a704</resource.hash>
+			<resource.size>60711</resource.size>
+			<dependencies>libgstreamer-1.0.so.0,libglib-2.0.so.0,libgobject-2.0.so.0,libgstriff-1.0.so.0,libgstvideo-1.0.so.0,libstdc++.so.6,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x64">
+			<deps>v6_p</deps>
+			<key>hob.media.jniffmpeg</key>
+			<jnilib>libhobjniffmpeg_v6_portable.so</jnilib>
+			<resource.zip>hob_media_jniffmpeg-linux-any-x64-v6_p.jar</resource.zip>
+			<resource.hash algo="sha2">6115d41eced63c9bf4d1bc1e22754e52de41f2426d1b557a018214be91151e7d</resource.hash>
+			<resource.size>76728</resource.size>
+			<dependencies>@hob.media.ffmpeg.portable</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x64">
+			<deps>v6_v53</deps>
+			<key>hob.media.jnilibav</key>
+			<jnilib>libhobjnilibav_v6_v53.so</jnilib>
+			<resource.zip>hob_media_jnilibav-linux-any-x64-v6_v53.jar</resource.zip>
+			<resource.hash algo="sha2">bc11d8849addc2fd6f396ec6aa18a72525a9cd7b650ac4fde160034a8d8c4e08</resource.hash>
+			<resource.size>81482</resource.size>
+			<dependencies>libavcodec.so.53,libavformat.so.53,libavutil.so.51,libswscale.so.2,libstdc++.so.6,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x64">
+			<deps>v6_v54</deps>
+			<key>hob.media.jnilibav</key>
+			<jnilib>libhobjnilibav_v6_v54.so</jnilib>
+			<resource.zip>hob_media_jnilibav-linux-any-x64-v6_v54.jar</resource.zip>
+			<resource.hash algo="sha2">d448bacd91819782a55d477ccdedae36d1e8960ac546bf4a3d2aa7be3062b877</resource.hash>
+			<resource.size>81365</resource.size>
+			<dependencies>libavcodec.so.54,libavformat.so.54,libavutil.so.52,libswscale.so.2,libavresample.so.1,libstdc++.so.6,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x64">
+			<deps>v6_v55</deps>
+			<key>hob.media.jniffmpeg</key>
+			<jnilib>libhobjniffmpeg_v6_v55.so</jnilib>
+			<resource.zip>hob_media_jniffmpeg-linux-any-x64-v6_v55.jar</resource.zip>
+			<resource.hash algo="sha2">e0292fbb859a96c0813bb816fdd27940ff99c6603d91a74d54d03cbb64d6c383</resource.hash>
+			<resource.size>76097</resource.size>
+			<dependencies>libavcodec.so.55,libavformat.so.55,libavutil.so.52,libswscale.so.2,libswresample.so.0,libstdc++.so.6,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x64">
+			<deps>v6_v56</deps>
+			<key>hob.media.jniffmpeg</key>
+			<jnilib>libhobjniffmpeg_v6_v56.so</jnilib>
+			<resource.zip>hob_media_jniffmpeg-linux-any-x64-v6_v56.jar</resource.zip>
+			<resource.hash algo="sha2">af9737a707dbd0f41c76a6f318bf740fd3811cd79bf9b431b6bf71dc02037c62</resource.hash>
+			<resource.size>76092</resource.size>
+			<dependencies>libavcodec.so.56,libavformat.so.56,libavutil.so.54,libswscale.so.3,libswresample.so.1,libstdc++.so.6,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x86">
+			<deps>c6</deps>
+			<key>hob.comm.jnisyslin</key>
+			<jnilib>libUSLinJni.so</jnilib>
+			<resource.zip>hob_comm_jnisyslin-linux-any-x86-c6.jar</resource.zip>
+			<resource.hash algo="sha2">b18c1dff60194ec89dc6236633607b84b26983070cba5f28343b1d8f3b928de5</resource.hash>
+			<resource.size>16354</resource.size>
+			<dependencies>libdl.so.2,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x86">
+			<deps>v5</deps>
+			<key>hob.hltc.jnitw</key>
+			<jnilib>libUSSEWIC1_v5.so</jnilib>
+			<resource.zip>hob_hltc_jnitw-linux-any-x86-v5.jar</resource.zip>
+			<resource.hash algo="sha2">87fa8e4f2ca8ea7a0c5774fc762c3fb4058d3f8c50cc8bae3b78c8820710b45c</resource.hash>
+			<resource.size>49101</resource.size>
+			<dependencies>libX11.so.6,libm.so.6,libstdc++.so.5,libc.so.6,libdl.so.2</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x86">
+			<deps>v5</deps>
+			<key>hob.rdp.ui.sys.rdpui</key>
+			<jnilib>libx11rdpui_v5.so</jnilib>
+			<resource.zip>hob_rdp_ui_sys_rdpui-linux-any-x86-v5.jar</resource.zip>
+			<resource.hash algo="sha2">81f519069fa0404cb0c8ce0d1f7e38f3a07d5f5095bd861249864d77bd78e681</resource.hash>
+			<resource.size>128580</resource.size>
+			<dependencies>libdl.so.2,libX11.so.6,libXrender.so.1,libXcursor.so.1,libXv.so.1,libXext.so.6,libstdc++.so.5,libm.so.6,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x86">
+			<deps>v5</deps>
+			<key>hob.hltc.jnidr</key>
+			<jnilib>libhobjnidr_v5.so</jnilib>
+			<resource.zip>hob_hltc_jnidr-linux-any-x86-v5.jar</resource.zip>
+			<resource.hash algo="sha2">ae7b0034a89613855a20ec38a4f8563af6b0290016f0a3531cc98255cc22496c</resource.hash>
+			<resource.size>52871</resource.size>
+			<dependencies>libdl.so.2,libstdc++.so.5,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x86">
+			<deps>v5</deps>
+			<key>hob.media.jnigstreamer</key>
+			<jnilib>libhobjnigst_v5.so</jnilib>
+			<resource.zip>hob_media_jnigstreamer-linux-any-x86-v5.jar</resource.zip>
+			<resource.hash algo="sha2">08cd395ea6228783b454b24ef5df36544bdd960aa4d3c14e472e1336e29e408c</resource.hash>
+			<resource.size>61456</resource.size>
+			<dependencies>libgstreamer-1.0.so.0,libglib-2.0.so.0,libgobject-2.0.so.0,libgstriff-1.0.so.0,libgstvideo-1.0.so.0,libstdc++.so.5,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x86">
+			<deps>v6</deps>
+			<key>hob.hltc.jnitw</key>
+			<jnilib>libUSSEWIC1_v6.so</jnilib>
+			<resource.zip>hob_hltc_jnitw-linux-any-x86-v6.jar</resource.zip>
+			<resource.hash algo="sha2">ada9faf30d5bfd83c86ad868781cb61f969bf10e34d167072c77f94465007fef</resource.hash>
+			<resource.size>52789</resource.size>
+			<dependencies>libX11.so.6,libm.so.6,libstdc++.so.6,libc.so.6,libdl.so.2</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x86">
+			<deps>v6</deps>
+			<key>hob.rdp.ui.sys.rdpui</key>
+			<jnilib>libx11rdpui_v6.so</jnilib>
+			<resource.zip>hob_rdp_ui_sys_rdpui-linux-any-x86-v6.jar</resource.zip>
+			<resource.hash algo="sha2">c3a8915caf2eaf68c5ed0d3e66e9a7845275be846fc88ff38dfae341ff5e07f0</resource.hash>
+			<resource.size>127607</resource.size>
+			<dependencies>libdl.so.2,libX11.so.6,libXrender.so.1,libXcursor.so.1,libXv.so.1,libXext.so.6,libstdc++.so.6,libm.so.6,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x86">
+			<deps>v6</deps>
+			<key>hob.cuc.jnisyswsm</key>
+			<jnilib>libhobjniwsm_v6.so</jnilib>
+			<resource.zip>hob_cuc_jnisyswsm-linux-any-x86-v6.jar</resource.zip>
+			<resource.hash algo="sha2">b017797a07f7fb8e1da899926689e00331fbcfb636bb9895d822de9b2e7b69f7</resource.hash>
+			<resource.size>687997</resource.size>
+			<dependencies>libdl.so.2,librt.so.1,libstdc++.so.6,libm.so.6,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x86">
+			<deps>v6</deps>
+			<key>hob.hltc.jnidr</key>
+			<jnilib>libhobjnidr_v6.so</jnilib>
+			<resource.zip>hob_hltc_jnidr-linux-any-x86-v6.jar</resource.zip>
+			<resource.hash algo="sha2">7f1d5a964f0c57974e95439eb43be1c152e6cc2a3e39e4a44e596a7a8a853745</resource.hash>
+			<resource.size>51796</resource.size>
+			<dependencies>libdl.so.2,libstdc++.so.6,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x86">
+			<deps>v6</deps>
+			<key>hob.media.jnigstreamer</key>
+			<jnilib>libhobjnigst_v6.so</jnilib>
+			<resource.zip>hob_media_jnigstreamer-linux-any-x86-v6.jar</resource.zip>
+			<resource.hash algo="sha2">fae2822f071588096dd93b6bb649b217bfdfd0cf6dd3f68fc181e9a4a3d7efca</resource.hash>
+			<resource.size>61377</resource.size>
+			<dependencies>libgstreamer-1.0.so.0,libglib-2.0.so.0,libgobject-2.0.so.0,libgstriff-1.0.so.0,libgstvideo-1.0.so.0,libstdc++.so.6,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x86">
+			<deps>v6_p</deps>
+			<key>hob.media.jniffmpeg</key>
+			<jnilib>libhobjniffmpeg_v6_portable.so</jnilib>
+			<resource.zip>hob_media_jniffmpeg-linux-any-x86-v6_p.jar</resource.zip>
+			<resource.hash algo="sha2">002d5750b8d1d8c6550b9732cfee4e106f798e013e826fe48ea8cb95d7ebb0a3</resource.hash>
+			<resource.size>78516</resource.size>
+			<dependencies>@hob.media.ffmpeg.portable</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x86">
+			<deps>v6_v53</deps>
+			<key>hob.media.jnilibav</key>
+			<jnilib>libhobjnilibav_v6_v53.so</jnilib>
+			<resource.zip>hob_media_jnilibav-linux-any-x86-v6_v53.jar</resource.zip>
+			<resource.hash algo="sha2">3520a8c5c096efa33e697f3ac9d5397115a4616782e0cc862467459269e3cf0d</resource.hash>
+			<resource.size>83122</resource.size>
+			<dependencies>libavcodec.so.53,libavformat.so.53,libavutil.so.51,libswscale.so.2,libstdc++.so.6,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x86">
+			<deps>v6_v54</deps>
+			<key>hob.media.jnilibav</key>
+			<jnilib>libhobjnilibav_v6_v54.so</jnilib>
+			<resource.zip>hob_media_jnilibav-linux-any-x86-v6_v54.jar</resource.zip>
+			<resource.hash algo="sha2">a8633f6c912a07f2fb5592dd22b7a90293ce0e8aaadd5b10bc7f1c18816cff9e</resource.hash>
+			<resource.size>82866</resource.size>
+			<dependencies>libavcodec.so.54,libavformat.so.54,libavutil.so.52,libswscale.so.2,libavresample.so.1,libstdc++.so.6,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x86">
+			<deps>v6_v55</deps>
+			<key>hob.media.jniffmpeg</key>
+			<jnilib>libhobjniffmpeg_v6_v55.so</jnilib>
+			<resource.zip>hob_media_jniffmpeg-linux-any-x86-v6_v55.jar</resource.zip>
+			<resource.hash algo="sha2">c6c3088cc1b42e33b0e98e19eff7cfe6fd450c8513be9137d8c62f23a5f0cc80</resource.hash>
+			<resource.size>77896</resource.size>
+			<dependencies>libavcodec.so.55,libavformat.so.55,libavutil.so.52,libswscale.so.2,libswresample.so.0,libstdc++.so.6,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="linux" subos="any" arch="x86">
+			<deps>v6_v56</deps>
+			<key>hob.media.jniffmpeg</key>
+			<jnilib>libhobjniffmpeg_v6_v56.so</jnilib>
+			<resource.zip>hob_media_jniffmpeg-linux-any-x86-v6_v56.jar</resource.zip>
+			<resource.hash algo="sha2">1731597733178b40586ea890216e783c3071b4f1b4fd685d264d59d021aaaea2</resource.hash>
+			<resource.size>77905</resource.size>
+			<dependencies>libavcodec.so.56,libavformat.so.56,libavutil.so.54,libswscale.so.3,libswresample.so.1,libstdc++.so.6,libpthread.so.0,libc.so.6</dependencies>
+		</lib>
+		<lib os="mac" subos="any" arch="ppc">
+			<deps></deps>
+			<key>hob.comm.jnisysmac</key>
+			<jnilib>libhobmacjni.jnilib</jnilib>
+			<resource.zip>hob_comm_jnisysmac-mac-any-ppc.jar</resource.zip>
+			<resource.hash algo="sha2">155e62d8149dc25ed31e7a90fae01f6c8b1bb322cb8f54820e991d0ee68e41b1</resource.hash>
+			<resource.size>13778</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="mac" subos="any" arch="x64">
+			<deps></deps>
+			<key>hob.comm.jnisysmac</key>
+			<jnilib>libhobmacjni.jnilib</jnilib>
+			<resource.zip>hob_comm_jnisysmac-mac-any-x64.jar</resource.zip>
+			<resource.hash algo="sha2">a0fef5e44460ddd74c2f0f93496c6c722d7df1741c30db6bfec27dbb4ae0f7d0</resource.hash>
+			<resource.size>13655</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="mac" subos="any" arch="x64">
+			<deps></deps>
+			<key>hob.hltc.jnidr</key>
+			<jnilib>libhobjnidr.jnilib</jnilib>
+			<resource.zip>hob_hltc_jnidr-mac-any-x64.jar</resource.zip>
+			<resource.hash algo="sha2">02a26725d8ced329cbd949b13e36fce57b44779b683bae9bbe93d09ed0affa24</resource.hash>
+			<resource.size>46541</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="mac" subos="any" arch="x64">
+			<deps>v1</deps>
+			<key>hob.media.jnigstreamer</key>
+			<jnilib>libhobjnigst.jnilib</jnilib>
+			<resource.zip>hob_media_jnigstreamer-mac-any-x64-v1.jar</resource.zip>
+			<resource.hash algo="sha2">448bfc307fce26d79ee990cead3096387af499f3401f97e129c4ae1585a93e40</resource.hash>
+			<resource.size>53138</resource.size>
+			<dependencies>/Library/Frameworks/GStreamer.framework/Versions/1.0/lib/libgstreamer-1.0.0.dylib,/Library/Frameworks/GStreamer.framework/Versions/1.0/lib/libgstbase-1.0.0.dylib,/Library/Frameworks/GStreamer.framework/Versions/1.0/lib/libglib-2.0.0.dylib,/Library/Frameworks/GStreamer.framework/Versions/1.0/lib/libgobject-2.0.0.dylib,/Library/Frameworks/GStreamer.framework/Versions/1.0/lib/libgstriff-1.0.0.dylib,/Library/Frameworks/GStreamer.framework/Versions/1.0/lib/libgstvideo-1.0.0.dylib,/usr/lib/libstdc++.6.dylib,/usr/lib/libSystem.B.dylib</dependencies>
+		</lib>
+		<lib os="mac" subos="any" arch="x64">
+			<deps>v55</deps>
+			<key>hob.media.jniffmpeg</key>
+			<jnilib>libhobjniffmpeg_v55.jnilib</jnilib>
+			<resource.zip>hob_media_jniffmpeg-mac-any-x64-v55.jar</resource.zip>
+			<resource.hash algo="sha2">68ac668d3a9ac2fd0058da8245e2c19ea58775272ed63ec17494d7309af002f1</resource.hash>
+			<resource.size>78186</resource.size>
+			<dependencies>/usr/lib/libavcodec.55.dylib,/usr/lib/libavformat.55.dylib,/usr/lib/libavutil.52.dylib,/usr/lib/libswscale.2.dylib,/usr/lib/libswresample.0.dylib,/usr/lib/libstdc++.6.dylib,/usr/lib/libSystem.B.dylib</dependencies>
+		</lib>
+		<lib os="mac" subos="any" arch="x64">
+			<deps>v56</deps>
+			<key>hob.media.jniffmpeg</key>
+			<jnilib>libhobjniffmpeg_v56.jnilib</jnilib>
+			<resource.zip>hob_media_jniffmpeg-mac-any-x64-v56.jar</resource.zip>
+			<resource.hash algo="sha2">b8de987b7729ac215359a979cec7edcaa80ab6ce1f9b8152cdde1a8c3ffdba82</resource.hash>
+			<resource.size>78348</resource.size>
+			<dependencies>/Users/jenkins/root/workspace/JWT_41-jni-multimake-ffmpeg-v56/LABEL_ARCH/X64/LABEL_OS/MAC/external/multimake/tmp/ffmpeg-2.6.2_build_x86_64/lib/libavcodec.56.dylib,/Users/jenkins/root/workspace/JWT_41-jni-multimake-ffmpeg-v56/LABEL_ARCH/X64/LABEL_OS/MAC/external/multimake/tmp/ffmpeg-2.6.2_build_x86_64/lib/libavformat.56.dylib,/Users/jenkins/root/workspace/JWT_41-jni-multimake-ffmpeg-v56/LABEL_ARCH/X64/LABEL_OS/MAC/external/multimake/tmp/ffmpeg-2.6.2_build_x86_64/lib/libavutil.54.dylib,/Users/jenkins/root/workspace/JWT_41-jni-multimake-ffmpeg-v56/LABEL_ARCH/X64/LABEL_OS/MAC/external/multimake/tmp/ffmpeg-2.6.2_build_x86_64/lib/libswscale.3.dylib,/Users/jenkins/root/workspace/JWT_41-jni-multimake-ffmpeg-v56/LABEL_ARCH/X64/LABEL_OS/MAC/external/multimake/tmp/ffmpeg-2.6.2_build_x86_64/lib/libswresample.1.dylib,/usr/lib/libstdc++.6.dylib,/usr/lib/libSystem.B.dylib</dependencies>
+		</lib>
+		<lib os="mac" subos="any" arch="x64">
+			<deps>v6</deps>
+			<key>hob.cuc.jnisyswsm</key>
+			<jnilib>libhobjniwsm.jnilib</jnilib>
+			<resource.zip>hob_cuc_jnisyswsm-mac-any-x64-v6.jar</resource.zip>
+			<resource.hash algo="sha2">3da570886fc8a1ef0fecb3997c31d5b4e2fb38bd23d5153a7dcaa725efe9bc15</resource.hash>
+			<resource.size>757375</resource.size>
+			<dependencies>/usr/lib/libSystem.B.dylib,/usr/lib/libstdc++.6.dylib</dependencies>
+		</lib>
+		<lib os="mac" subos="any" arch="x64">
+			<deps>v6_p</deps>
+			<key>hob.media.jniffmpeg</key>
+			<jnilib>libhobjniffmpeg_portable.jnilib</jnilib>
+			<resource.zip>hob_media_jniffmpeg-mac-any-x64-v6_p.jar</resource.zip>
+			<resource.hash algo="sha2">d22dd7f9ab4ec60ab3d31a59f42e82d5c4b16b1a284c9f303e590fd2d1a6ca88</resource.hash>
+			<resource.size>79031</resource.size>
+			<dependencies>/usr/lib/libSystem.B.dylib,/usr/lib/libstdc++.6.dylib,@hob.media.ffmpeg.portable</dependencies>
+		</lib>
+		<lib os="mac" subos="any" arch="x64">
+			<deps></deps>
+			<key>hob.hltc.rdes.macscan</key>
+			<jnilib>libhobjniffmpeg_portable.jnilib</jnilib>
+			<resource.zip>hob_hltc_rdes_macscan-mac-any-x64.jar</resource.zip>
+			<resource.hash algo="sha2">e87f360bdf5a1db31ae42449832bd461d3052ebcb7cd994deb032381dca96e16</resource.hash>
+			<resource.size>26012</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="mac" subos="any" arch="x86">
+			<deps></deps>
+			<key>hob.comm.jnisysmac</key>
+			<jnilib>libhobmacjni.jnilib</jnilib>
+			<resource.zip>hob_comm_jnisysmac-mac-any-x86.jar</resource.zip>
+			<resource.hash algo="sha2">c68f74ac99024848039a61a58280c92fb82bca4749285244df893e9f280b1e0e</resource.hash>
+			<resource.size>13132</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="mac" subos="any" arch="x86">
+			<deps></deps>
+			<key>hob.hltc.jnidr</key>
+			<jnilib>libhobjnidr.jnilib</jnilib>
+			<resource.zip>hob_hltc_jnidr-mac-any-x86.jar</resource.zip>
+			<resource.hash algo="sha2">7487042b996531fc173aae22f3cce7bc77f1f091e288faafd2a9593fc09d9305</resource.hash>
+			<resource.size>46884</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="mac" subos="any" arch="x86">
+			<deps>v1</deps>
+			<key>hob.media.jnigstreamer</key>
+			<jnilib>libhobjnigst.jnilib</jnilib>
+			<resource.zip>hob_media_jnigstreamer-mac-any-x86-v1.jar</resource.zip>
+			<resource.hash algo="sha2">2d331c5c239f098651ce720945a8f4e8103e880c462a7d4fb6acb19c477f63db</resource.hash>
+			<resource.size>52664</resource.size>
+			<dependencies>/Library/Frameworks/GStreamer.framework/Versions/1.0/lib/libgstreamer-1.0.0.dylib,/Library/Frameworks/GStreamer.framework/Versions/1.0/lib/libgstbase-1.0.0.dylib,/Library/Frameworks/GStreamer.framework/Versions/1.0/lib/libglib-2.0.0.dylib,/Library/Frameworks/GStreamer.framework/Versions/1.0/lib/libgobject-2.0.0.dylib,/Library/Frameworks/GStreamer.framework/Versions/1.0/lib/libgstriff-1.0.0.dylib,/Library/Frameworks/GStreamer.framework/Versions/1.0/lib/libgstvideo-1.0.0.dylib,/usr/lib/libstdc++.6.dylib,/usr/lib/libSystem.B.dylib</dependencies>
+		</lib>
+		<lib os="mac" subos="any" arch="x86">
+			<deps></deps>
+			<key>hob.hltc.rdes.macscan</key>
+			<jnilib>libhobjniffmpeg_portable.jnilib</jnilib>
+			<resource.zip>hob_hltc_rdes_macscan-mac-any-x86.jar</resource.zip>
+			<resource.hash algo="sha2">37bccc1ee99717dc2cb594606289ba8a272be38589d0602d4698a91763f0442e</resource.hash>
+			<resource.size>25975</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="mac" subos="any" arch="x86">
+			<deps>v6</deps>
+			<key>hob.cuc.jnisyswsm</key>
+			<jnilib>libhobjniwsm.jnilib</jnilib>
+			<resource.zip>hob_cuc_jnisyswsm-mac-any-x86-v6.jar</resource.zip>
+			<resource.hash algo="sha2">eaca7dde82abb11f59887b4da3d5e8afc68019bbe9d2baa3f4f211eedde3d4cb</resource.hash>
+			<resource.size>749525</resource.size>
+			<dependencies>/usr/lib/libSystem.B.dylib,/usr/lib/libstdc++.6.dylib</dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x64">
+			<deps></deps>
+			<key>hob.audio.jnimms</key>
+			<jnilib>hobjnimms.dll</jnilib>
+			<resource.zip>hob_audio_jnimms-win-any-x64.jar</resource.zip>
+			<resource.hash algo="sha2">031c9497bcc0f1473200c2c830fe3b627a5e54bf34a59cf3e004a3f9cadc9ef8</resource.hash>
+			<resource.size>48706</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x64">
+			<deps></deps>
+			<key>hob.keyboard.jnihkctrl</key>
+			<jnilib>jilhinput.dll</jnilib>
+			<resource.zip>hob_keyboard_jnihkctrl-win-any-x64.jar</resource.zip>
+			<resource.hash algo="sha2">638d71972588eec20f13b58bb8bae52c98c67e24e8673b33042a42d587bfc313</resource.hash>
+			<resource.size>52838</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x64">
+			<deps></deps>
+			<key>hob.comm.jnisyswin</key>
+			<jnilib>hobjni.dll</jnilib>
+			<resource.zip>hob_comm_jnisyswin-win-any-x64.jar</resource.zip>
+			<resource.hash algo="sha2">2701ebaa7d16482a6c46629b47db0731bd171f0706d95ae778e91e1cbb706c41</resource.hash>
+			<resource.size>92198</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x64">
+			<deps></deps>
+			<key>hob.cuc.jnisyswin</key>
+			<jnilib>hobwinjni.dll</jnilib>
+			<resource.zip>hob_cuc_jnisyswin-win-any-x64.jar</resource.zip>
+			<resource.hash algo="sha2">43092b8a12537907797342d2f719472e6dcf9468c2bf91cda98cb5ad79ccdfd1</resource.hash>
+			<resource.size>108653</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x64">
+			<deps></deps>
+			<key>hob.hltc.jnivcapi</key>
+			<jnilib>hobjnimsvcapi.dll</jnilib>
+			<resource.zip>hob_hltc_jnivcapi-win-any-x64.jar</resource.zip>
+			<resource.hash algo="sha2">f261bb04831f3c4517349d9adc6c3d73b4be7df38fc09ca04ec473422d26b585</resource.hash>
+			<resource.size>117736</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x64">
+			<deps></deps>
+			<key>hob.hltc.jnidr</key>
+			<jnilib>hobjnidr.dll</jnilib>
+			<resource.zip>hob_hltc_jnidr-win-any-x64.jar</resource.zip>
+			<resource.hash algo="sha2">434ec08df76712ef871b6f8ace434f465fd305a40d1229d22ab3c7b3fbdb49d0</resource.hash>
+			<resource.size>104748</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x64">
+			<deps></deps>
+			<key>hob.hltc.jniprt</key>
+			<jnilib>PrtDLL.dll</jnilib>
+			<resource.zip>hob_hltc_jniprt-win-any-x64.jar</resource.zip>
+			<resource.hash algo="sha2">8b779dfbdd4915e9c2a21be5d572a98a620b0bbddc82b419d93ec365d6b75ecd</resource.hash>
+			<resource.size>195225</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x64">
+			<deps></deps>
+			<key>hob.hltc.jnichlpr2</key>
+			<jnilib>hobjnidevnotif.dll</jnilib>
+			<resource.zip>hob_hltc_jnichlpr2-win-any-x64.jar</resource.zip>
+			<resource.hash algo="sha2">33a780560f3a258f3a1fb001232424c44666a349fdf0079a5d80381d4302f0b5</resource.hash>
+			<resource.size>84361</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x64">
+			<deps></deps>
+			<key>hob.cuc.jnisyswsm</key>
+			<jnilib>hobjniwsm.dll</jnilib>
+			<resource.zip>hob_cuc_jnisyswsm-win-any-x64.jar</resource.zip>
+			<resource.hash algo="sha2">e2f393cc820f53ed20852d19cda80c5e65df775dfc089ca24f83e780c11d7286</resource.hash>
+			<resource.size>541507</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x64">
+			<deps></deps>
+			<key>hob.rdp.ui.sys.rdpui</key>
+			<jnilib>winrdpui.dll</jnilib>
+			<resource.zip>hob_rdp_ui_sys_rdpui-win-any-x64.jar</resource.zip>
+			<resource.hash algo="sha2">5984adfc072ac31de924dfd1a52e9b0a55d15665c2b76100d29c99e763313ef5</resource.hash>
+			<resource.size>155280</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x64">
+			<deps></deps>
+			<key>hob.media.jnidshow</key>
+			<jnilib>hobjnidshow.dll</jnilib>
+			<resource.zip>hob_media_jnidshow-win-any-x64.jar</resource.zip>
+			<resource.hash algo="sha2">5736aef04cb17d04cddd8c9658987098a952d3f6643465907341a948fa6d2f79</resource.hash>
+			<resource.size>118103</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x64">
+			<deps></deps>
+			<key>hob.media.jnimf</key>
+			<jnilib>hobjnimf.dll</jnilib>
+			<resource.zip>hob_media_jnimf-win-any-x64.jar</resource.zip>
+			<resource.hash algo="sha2">b1406eeeccb749db100e8de15e42ff649a103401ee1a71c00bc58f245c529ad8</resource.hash>
+			<resource.size>31524</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x64">
+			<deps></deps>
+			<key>hob.hltc.jniseamless</key>
+			<jnilib>hobjnirail.dll</jnilib>
+			<resource.zip>hob_hltc_jniseamless-win-any-x64.jar</resource.zip>
+			<resource.hash algo="sha2">8297c42750af9510f00561c1c807816372276b08ba92a13a64912763f566c957</resource.hash>
+			<resource.size>84979</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x64">
+			<deps></deps>
+			<key>hob.cuc.jniiconwin</key>
+			<jnilib>JIIcon.dll</jnilib>
+			<resource.zip>hob_cuc_jniiconwin-win-any-x64.jar</resource.zip>
+			<resource.hash algo="sha2">9f87f5581115ad5a891806f98be2d3032161533d8c3c8561d009b78060fa9db2</resource.hash>
+			<resource.size>44179</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x86">
+			<deps></deps>
+			<key>hob.audio.jnimms</key>
+			<jnilib>hobjnimms.dll</jnilib>
+			<resource.zip>hob_audio_jnimms-win-any-x86.jar</resource.zip>
+			<resource.hash algo="sha2">40412ed0ce51ebd1808ff9c8e3efc25536818f9837e4155f0514955d5abc408d</resource.hash>
+			<resource.size>45723</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x86">
+			<deps></deps>
+			<key>hob.keyboard.jnihkctrl</key>
+			<jnilib>jilhinput.dll</jnilib>
+			<resource.zip>hob_keyboard_jnihkctrl-win-any-x86.jar</resource.zip>
+			<resource.hash algo="sha2">012689b7a88c578e83a34c4769841e2f81c4a937117d02679a93882e4e1298f3</resource.hash>
+			<resource.size>50212</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x86">
+			<deps></deps>
+			<key>hob.comm.jnisyswin</key>
+			<jnilib>hobjni.dll</jnilib>
+			<resource.zip>hob_comm_jnisyswin-win-any-x86.jar</resource.zip>
+			<resource.hash algo="sha2">b7b101d24286849ceeecf92055326993700bc89b0a08a79ab3ea1859b75b4eab</resource.hash>
+			<resource.size>79464</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x86">
+			<deps></deps>
+			<key>hob.cuc.jnisyswin</key>
+			<jnilib>hobwinjni.dll</jnilib>
+			<resource.zip>hob_cuc_jnisyswin-win-any-x86.jar</resource.zip>
+			<resource.hash algo="sha2">1d32907f93e3d0061ae65199106fef9c83f5add3f0f0e95487f058a8a385d212</resource.hash>
+			<resource.size>93375</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x86">
+			<deps></deps>
+			<key>hob.hltc.jnivcapi</key>
+			<jnilib>hobjnimsvcapi.dll</jnilib>
+			<resource.zip>hob_hltc_jnivcapi-win-any-x86.jar</resource.zip>
+			<resource.hash algo="sha2">edec1e4c5e0227010b6d3613d8301fad2112290e32045acca39a99418fc0b6ce</resource.hash>
+			<resource.size>113948</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x86">
+			<deps></deps>
+			<key>hob.hltc.jnidr</key>
+			<jnilib>hobjnidr.dll</jnilib>
+			<resource.zip>hob_hltc_jnidr-win-any-x86.jar</resource.zip>
+			<resource.hash algo="sha2">a9d969ced31c269ef82f7ba293185095f186b23d33dbf244f4a33adcedb5c9c6</resource.hash>
+			<resource.size>87546</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x86">
+			<deps></deps>
+			<key>hob.hltc.jniprt</key>
+			<jnilib>PrtDLL.dll</jnilib>
+			<resource.zip>hob_hltc_jniprt-win-any-x86.jar</resource.zip>
+			<resource.hash algo="sha2">1b751cff76b7ca0c1ef59597979c9644b00e92f7b16e561e4dd5f9d08b75cf76</resource.hash>
+			<resource.size>193884</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x86">
+			<deps></deps>
+			<key>hob.hltc.jnichlpr2</key>
+			<jnilib>hobjnidevnotif.dll</jnilib>
+			<resource.zip>hob_hltc_jnichlpr2-win-any-x86.jar</resource.zip>
+			<resource.hash algo="sha2">169db39744881d99760568632051f49da72d1f18f6e3c729cf62d61b616010cf</resource.hash>
+			<resource.size>74931</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x86">
+			<deps></deps>
+			<key>hob.cuc.jnisyswsm</key>
+			<jnilib>hobjniwsm.dll</jnilib>
+			<resource.zip>hob_cuc_jnisyswsm-win-any-x86.jar</resource.zip>
+			<resource.hash algo="sha2">82964200dcf63d88b3c9b9b081e83dbfe19fa73862ed2c1a082aa40c82e5f833</resource.hash>
+			<resource.size>474961</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x86">
+			<deps></deps>
+			<key>hob.rdp.ui.sys.rdpui</key>
+			<jnilib>winrdpui.dll</jnilib>
+			<resource.zip>hob_rdp_ui_sys_rdpui-win-any-x86.jar</resource.zip>
+			<resource.hash algo="sha2">dbc5741fe63818338683050147350a1d11d63cede45f1944c121f4198d7f27e9</resource.hash>
+			<resource.size>131793</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x86">
+			<deps></deps>
+			<key>hob.media.jnidshow</key>
+			<jnilib>hobjnidshow.dll</jnilib>
+			<resource.zip>hob_media_jnidshow-win-any-x86.jar</resource.zip>
+			<resource.hash algo="sha2">581abab8643d758c4390e8624dd1f1305e2408d43362006f99b26db04e5cdba1</resource.hash>
+			<resource.size>106566</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x86">
+			<deps></deps>
+			<key>hob.media.jnimf</key>
+			<jnilib>hobjnimf.dll</jnilib>
+			<resource.zip>hob_media_jnimf-win-any-x86.jar</resource.zip>
+			<resource.hash algo="sha2">12a4588794f882d9c08bf9dae4a5bc587e23d552a363419f6cd27f799d0bbff5</resource.hash>
+			<resource.size>28090</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x86">
+			<deps></deps>
+			<key>hob.hltc.jniseamless</key>
+			<jnilib>hobjnirail.dll</jnilib>
+			<resource.zip>hob_hltc_jniseamless-win-any-x86.jar</resource.zip>
+			<resource.hash algo="sha2">92f90b494e227c141747970c00e1c79331e818a89e78a890df12aed175aabc3f</resource.hash>
+			<resource.size>80381</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x86">
+			<deps></deps>
+			<key>hob.hltc.vc.speechmike</key>
+			<jnilib>speechmikecli.dll</jnilib>
+			<resource.zip>hob_hltc_vc_speechmike-win-any-x86.jar</resource.zip>
+			<resource.hash algo="sha2">4deed909ed2fca9cd14b7f90c8f5a347e127a5efdcb5e58d691fc3033c72687f</resource.hash>
+			<resource.size>44769</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="any" arch="x86">
+			<deps></deps>
+			<key>hob.cuc.jniiconwin</key>
+			<jnilib>JIIcon.dll</jnilib>
+			<resource.zip>hob_cuc_jniiconwin-win-any-x86.jar</resource.zip>
+			<resource.hash algo="sha2">30694acc40bc35cf3ea7dc99a589c44567c7a1f14da3e92b905f75af73fcd400</resource.hash>
+			<resource.size>41805</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="winnt" arch="x64">
+			<deps></deps>
+			<key>hob.hltc.jnitw</key>
+			<jnilib>ISSEWIC1.dll</jnilib>
+			<resource.zip>hob_hltc_jnitw-win-winnt-x64.jar</resource.zip>
+			<resource.hash algo="sha2">cb63889854f515081e5d743e1fc9e07b527c93b560d6cab62512075f08eace79</resource.hash>
+			<resource.size>88472</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="winnt" arch="x64">
+			<deps></deps>
+			<key>hob.hltc.jnitwain</key>
+			<jnilib>HOBTwainApp.dll</jnilib>
+			<resource.zip>hob_hltc_jnitwain-win-winnt-x64.jar</resource.zip>
+			<resource.hash algo="sha2">3f62cccde5f19205bf7499422cfade69029a0c42f19528009ac1af8a2b5615e1</resource.hash>
+			<resource.size>141669</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="winnt" arch="x64">
+			<deps></deps>
+			<key>hob.cuc.sec.jnisspi</key>
+			<jnilib>hobjnisspi.dll</jnilib>
+			<resource.zip>hob_cuc_sec_jnisspi-win-winnt-x64.jar</resource.zip>
+			<resource.hash algo="sha2">8816234530587dfc110f4c46378c5fc47ff034828a6b9380100564e94b571514</resource.hash>
+			<resource.size>67319</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="winnt" arch="x86">
+			<deps></deps>
+			<key>hob.hltc.jnitw</key>
+			<jnilib>ISSEWIC1.dll</jnilib>
+			<resource.zip>hob_hltc_jnitw-win-winnt-x86.jar</resource.zip>
+			<resource.hash algo="sha2">58b83533a365f783c38bde4d3c04724cd98a37f4349c3ef911fe34c4da42bb1a</resource.hash>
+			<resource.size>84906</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="winnt" arch="x86">
+			<deps></deps>
+			<key>hob.hltc.jnitwain</key>
+			<jnilib>HOBTwainApp.dll</jnilib>
+			<resource.zip>hob_hltc_jnitwain-win-winnt-x86.jar</resource.zip>
+			<resource.hash algo="sha2">858beef5eb468f5985b64a18bd25c72df3233614d183d17812147f7e5ed81416</resource.hash>
+			<resource.size>132108</resource.size>
+			<dependencies></dependencies>
+		</lib>
+		<lib os="win" subos="winnt" arch="x86">
+			<deps></deps>
+			<key>hob.cuc.sec.jnisspi</key>
+			<jnilib>hobjnisspi.dll</jnilib>
+			<resource.zip>hob_cuc_sec_jnisspi-win-winnt-x86.jar</resource.zip>
+			<resource.hash algo="sha2">7fa611fdc9994b5d96c255968a422f03440c18eea4cb03279d7547da6fbc3646</resource.hash>
+			<resource.size>59453</resource.size>
+			<dependencies></dependencies>
+		</lib>
+	</libraries>
+	<aliases></aliases>
+</webres>

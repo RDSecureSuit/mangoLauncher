@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registry>
+	<header>
+		<version type="S">1.2</version>
+	</header>
+	<local>
+		<machine>
+			<SOFTWARE>
+				<Microsoft>
+					<MSLicensing>
+						<HardwareID>
+							<ClientHWID type="B">000080014d6163426f6f6b2d4169722d766f6e00</ClientHWID>
+						</HardwareID>
+					</MSLicensing>
+				</Microsoft>
+			</SOFTWARE>
+		</machine>
+		<user>
+			<Software>
+				<HOBSoftware>
+					<JWT>
+						<connbar>
+							<FIXED type="I">0</FIXED>
+							<XCOORD type="I">576</XCOORD>
+							<OPENDELAY type="I">150</OPENDELAY>
+							<CLOSEDELAY type="I">800</CLOSEDELAY>
+							<SCROLLING type="I">2</SCROLLING>
+							<SHOWING type="I">0</SHOWING>
+						</connbar>
+					</JWT>
+					<Licensing>
+						<ClientUUID type="B">32b3d50ea8ee13468de01a803e74db11</ClientUUID>
+					</Licensing>
+				</HOBSoftware>
+			</Software>
+		</user>
+	</local>
+</registry>
