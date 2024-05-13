@@ -27,6 +27,16 @@
 							<SCROLLING type="I">2</SCROLLING>
 							<SHOWING type="I">0</SHOWING>
 						</connbar>
+						<config>
+							<Connection_-_281_-_29>
+								<sessionwindow>
+									<boundsx type="I">395</boundsx>
+									<boundsy type="I">191</boundsy>
+									<boundsw type="I">1529</boundsw>
+									<boundsh type="I">881</boundsh>
+								</sessionwindow>
+							</Connection_-_281_-_29>
+						</config>
 					</JWT>
 					<Licensing>
 						<ClientUUID type="B">32b3d50ea8ee13468de01a803e74db11</ClientUUID>
