@@ -3,10 +3,9 @@
     <ctype>1</ctype>
     <sm_views_mode>1</sm_views_mode>
     <conf_wsp>2</conf_wsp>
-    <autologon>N</autologon>
-    <timestamp>20240205112901</timestamp>
-    <http_proxy_state>1</http_proxy_state>
+    <timestamp>20251003233135</timestamp>
     <filetype>1</filetype>
+    <http_proxy_ip>127.0.0.1</http_proxy_ip>
     <imc_version>1</imc_version>
     <user_keystore>1</user_keystore>
     <savepw>Y</savepw>
@@ -15,8 +14,9 @@
     <SrvListWSP>
         <_-_23>1</_-_23>
         <__0>
-            <host>demo1.rdsca.net</host>
-            <port>446</port>
+	    <!-- nc.j-cloud.mx -->
+            <host>54.156.237.41</host>
+            <port>443</port>
         </__0>
     </SrvListWSP>
 </root>
