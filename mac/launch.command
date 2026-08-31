@@ -34,9 +34,13 @@ PORT=$(xmllint --xpath 'string(/root/SrvListWSP/__0/port)' $XML_FILE)
 URL="https://"$HOST:$PORT
 
 APPARGS="-a102 -sstartup.xml -rY -l$URL/public/lib"
+WWW_DIR="www"
 
-if [ ! -d www ]; then
-    mkdir www
+# Limpieza de directorios antes de las descargas
+rm -rf lib/*.gif && rm -rf $WWW_DIR lib/sslpublic
+
+if [ ! -d $WWW_DIR ]; then
+    mkdir $WWW_DIR
 fi
 if [ ! -d $HOME/hob_jportal ]; then
     mkdir $HOME/hob_jportal
@@ -44,14 +48,27 @@ fi
 #if [ ! -d lib/sslpublic ]; then
 #    mkdir lib/sslpublic
 #fi
+
+
+
 # Descargas para la carpeta 'www' (continuarán aunque una falle)
-curl --insecure -s "$URL/public/lib/rel25.gif" --output www/rel25.gif
-curl --insecure -s "$URL/public/lib/rel102.gif" --output www/rel102.gif
-curl --insecure -s "$URL/public/lib/rel10018.gif" --output www/rel10018.gif
-curl --insecure -s "$URL/public/lib/rel10048.gif" --output www/rel10048.gif
-curl --insecure -s "$URL/public/lib/ver25.gif" --output www/ver25.gif
-curl --insecure -s "$URL/public/lib/ver85.gif" --output www/ver85.gif
-curl --insecure -s "$URL/public/lib/ver100018.gif" --output www/ver100018.gif
+curl --insecure -s "$URL/public/lib/rel25.gif" --output $WWW_DIR/rel25.gif
+curl --insecure -s "$URL/public/lib/rel102.gif" --output $WWW_DIR/rel102.gif
+curl --insecure -s "$URL/public/lib/rel10018.gif" --output $WWW_DIR/rel10018.gif
+curl --insecure -s "$URL/public/lib/rel10048.gif" --output $WWW_DIR/rel10048.gif
+curl --insecure -s "$URL/public/lib/ver25.gif" --output $WWW_DIR/ver25.gif
+curl --insecure -s "$URL/public/lib/ver85.gif" --output $WWW_DIR/ver85.gif
+curl --insecure -s "$URL/public/lib/ver100018.gif" --output $WWW_DIR/ver100018.gif
+
+# Copiamos los archivos de versión en lib
+
+cp $WWW_DIR/rel25.gif lib/rel25.gif
+cp $WWW_DIR/rel102.gif lib/rel102.gif
+cp $WWW_DIR/rel10018.gif lib/rel10018.gif
+cp $WWW_DIR/rel10048.gif lib/rel10048.gif
+cp $WWW_DIR/ver25.gif lib/ver25.gif
+cp $WWW_DIR/ver85.gif lib/ver85.gif
+cp $WWW_DIR/ver100018.gif lib/ver100018.gif
 
 # Descargas para la carpeta de jportal
 curl --insecure -s "$URL/public/lib/sslpublic/hclient.cdb" --output "$HOME/hob_jportal/hclient.cdb"

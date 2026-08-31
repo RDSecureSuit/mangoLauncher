@@ -14,3 +14,4 @@ Esta es una implementacón del cliente Jlaunch.
 
 ## Instalación
 
+Para los detalles de la [instalación en MAC](./mac/README.md)
