@@ -33,21 +33,33 @@ HOST=$(xmllint --xpath 'string(/root/SrvListWSP/__0/host)' $XML_FILE)
 PORT=$(xmllint --xpath 'string(/root/SrvListWSP/__0/port)' $XML_FILE)
 URL="https://"$HOST:$PORT
 
-APPARGS="-a102 -sstartup.xml -l$URL/public/lib  -urdvpn\demo -rY "
+APPARGS="-a102 -sstartup.xml -rY -l$URL/public/lib"
 
 if [ ! -d www ]; then
     mkdir www
 fi
-if [ ! -d lib/sslpublic ]; then
-    mkdir lib/sslpublic
+if [ ! -d $HOME/hob_jportal ]; then
+    mkdir $HOME/hob_jportal
 fi
+#if [ ! -d lib/sslpublic ]; then
+#    mkdir lib/sslpublic
+#fi
+# Descargas para la carpeta 'www' (continuarán aunque una falle)
+curl --insecure -s "$URL/public/lib/rel25.gif" --output www/rel25.gif
+curl --insecure -s "$URL/public/lib/rel102.gif" --output www/rel102.gif
+curl --insecure -s "$URL/public/lib/rel10018.gif" --output www/rel10018.gif
+curl --insecure -s "$URL/public/lib/rel10048.gif" --output www/rel10048.gif
+curl --insecure -s "$URL/public/lib/ver25.gif" --output www/ver25.gif
+curl --insecure -s "$URL/public/lib/ver85.gif" --output www/ver85.gif
+curl --insecure -s "$URL/public/lib/ver100018.gif" --output www/ver100018.gif
 
-# curl --insecure -s $URL/public/lib/rel102.gif --output www/rel102.gif > /dev/null && \
-curl --insecure -s $URL/public/lib/sslpublic/hclient.cdb --output lib/sslpublic/hclient.cdb > /dev/null && \
-curl --insecure -s $URL/public/lib/sslpublic/hclient.cfg --output lib/sslpublic/hclient.cfg > /dev/null && \
-curl --insecure -s $URL/public/lib/sslpublic/hclient.pwd --output lib/sslpublic/hclient.pwd > /dev/null
+# Descargas para la carpeta de jportal
+curl --insecure -s "$URL/public/lib/sslpublic/hclient.cdb" --output "$HOME/hob_jportal/hclient.cdb"
+curl --insecure -s "$URL/public/lib/sslpublic/hclient.cfg" --output "$HOME/hob_jportal/hclient.cfg"
+curl --insecure -s "$URL/public/lib/sslpublic/hclient.pwd" --output "$HOME/hob_jportal/hclient.pwd"
 
-$JAVA $JAVAARGS -cp $CLASSPATH $JAVAMAINCLASS $APPARGS 
+# Ejecución de la aplicación Java (se ejecuta siempre al terminar las descargas)
+$JAVA $JAVAARGS -cp "$CLASSPATH" "$JAVAMAINCLASS" $APPARGS > rdsMangoLauncher.log 2>&1
 
 exit
 
