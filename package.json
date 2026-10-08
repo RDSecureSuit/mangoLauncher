@@ -3,6 +3,9 @@
   "version": "1.1.1",
   "description": "Script de automatización para clientes",
   "main": "mac/launch.command",
+  "scripts": {
+    "release": "standard-version"
+  },
   "standard-version": {
     "hooks": {
       "postbump": "./generate-version.sh && git add mac/launch.command"
