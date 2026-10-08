@@ -1,0 +1,14 @@
+{
+  "name": "mangoLauncher",
+  "version": "1.1.1",
+  "description": "Script de automatización para clientes",
+  "main": "mac/launch.command",
+  "standard-version": {
+    "hooks": {
+      "postbump": "./generate-version.sh && git add mac/launch.command"
+    }
+  },
+  "devDependencies": {
+    "standard-version": "^9.5.0"
+  }
+}
