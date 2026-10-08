@@ -1,5 +1,5 @@
 #!/bin/bash
-VERSION="1.1.0-4-g83396c9"
+VERSION="##VERSION_PLACEHOLDER##"
 echo "Launcher version: $VERSION"
 cd "$(dirname "$0")"
 SCRIPT_DIR="$(pwd)"

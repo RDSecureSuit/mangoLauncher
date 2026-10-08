@@ -1,0 +1,36 @@
+{
+    "types": [
+        {
+            "type": "feat",
+            "section": "✨ Nuevas Características"
+        },
+        {
+            "type": "fix",
+            "section": "🐛 Correcciones de Errores"
+        },
+        {
+            "type": "chore",
+            "hidden": true
+        },
+        {
+            "type": "docs",
+            "hidden": true
+        },
+        {
+            "type": "style",
+            "hidden": true
+        },
+        {
+            "type": "refactor",
+            "hidden": true
+        },
+        {
+            "type": "perf",
+            "section": "⚡ Mejoras de Rendimiento"
+        },
+        {
+            "type": "test",
+            "hidden": true
+        }
+    ]
+}
